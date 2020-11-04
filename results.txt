@@ -1,0 +1,207 @@
+BiLSTM1----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.30      0.34      0.32       365
+   Lean Left       0.36      0.44      0.40       474
+  Lean Right       0.29      0.38      0.33       366
+        Left       0.24      0.03      0.05       136
+       Right       0.33      0.03      0.05       172
+
+    accuracy                           0.32      1513
+   macro avg       0.30      0.24      0.23      1513
+weighted avg       0.31      0.32      0.29      1513
+
+BiLSTM12----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.45      0.32      0.37        81
+   Lean Left       0.35      0.43      0.38       107
+  Lean Right       0.20      0.30      0.24        63
+        Left       0.60      0.19      0.29        96
+       Right       0.32      0.43      0.37        98
+
+    accuracy                           0.34       445
+   macro avg       0.38      0.33      0.33       445
+weighted avg       0.39      0.34      0.34       445
+
+BiLSTM13----------------------------------------------------
+              precision    recall  f1-score   support
+
+      Center       0.24      0.19      0.21       427
+   Lean Left       0.35      0.50      0.41       599
+  Lean Right       0.30      0.36      0.32       459
+        Left       0.25      0.08      0.13       224
+       Right       0.25      0.14      0.18       249
+
+    accuracy                           0.31      1958
+   macro avg       0.28      0.25      0.25      1958
+weighted avg       0.29      0.31      0.29      1958
+
+CNN1----------------------------------------------------
+
+ precision    recall  f1-score   support
+
+      Center       0.28      0.38      0.32       365
+   Lean Left       0.34      0.47      0.39       474
+  Lean Right       0.30      0.23      0.26       366
+        Left       0.17      0.05      0.08       136
+       Right       0.21      0.04      0.07       172
+
+    accuracy                           0.30      1513
+   macro avg       0.26      0.23      0.22      1513
+weighted avg       0.28      0.30      0.28      1513
+
+CNN12----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.32      0.23      0.27        81
+   Lean Left       0.34      0.46      0.39       107
+  Lean Right       0.16      0.13      0.14        63
+        Left       0.29      0.19      0.23        96
+       Right       0.25      0.34      0.29        98
+
+    accuracy                           0.29       445
+   macro avg       0.27      0.27      0.26       445
+weighted avg       0.28      0.29      0.28       445
+
+CNN13----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.23      0.19      0.21       427
+   Lean Left       0.35      0.57      0.44       599
+  Lean Right       0.30      0.20      0.24       459
+        Left       0.12      0.08      0.10       224
+       Right       0.21      0.16      0.18       249
+
+    accuracy                           0.29      1958
+   macro avg       0.24      0.24      0.23      1958
+weighted avg       0.27      0.29      0.27      1958
+
+LSTM1----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.33      0.37      0.35       365
+   Lean Left       0.36      0.55      0.43       474
+  Lean Right       0.31      0.23      0.26       366
+        Left       0.25      0.10      0.14       136
+       Right       0.31      0.08      0.13       172
+
+    accuracy                           0.34      1513
+   macro avg       0.31      0.27      0.26      1513
+weighted avg       0.32      0.34      0.31      1513
+
+LSTM12----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.42      0.35      0.38        81
+   Lean Left       0.34      0.39      0.37       107
+  Lean Right       0.21      0.17      0.19        63
+        Left       0.31      0.34      0.33        96
+       Right       0.34      0.34      0.34        98
+
+    accuracy                           0.33       445
+   macro avg       0.32      0.32      0.32       445
+weighted avg       0.33      0.33      0.33       445
+
+
+LSTM13----------------------------------------------------
+
+ precision    recall  f1-score   support
+
+      Center       0.27      0.26      0.27       427
+   Lean Left       0.36      0.40      0.38       599
+  Lean Right       0.31      0.37      0.34       459
+        Left       0.16      0.08      0.10       224
+       Right       0.23      0.21      0.22       249
+
+    accuracy                           0.30      1958
+   macro avg       0.27      0.26      0.26      1958
+weighted avg       0.29      0.30      0.29      1958
+
+
+BiLSTM2----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.28      0.26      0.27       385
+   Lean Left       0.31      0.67      0.43       460
+  Lean Right       0.19      0.09      0.13       361
+        Left       0.50      0.01      0.01       150
+       Mixed       0.00      0.00      0.00         5
+   Not Rated       0.00      0.00      0.00         6
+       Right       0.09      0.01      0.01       153
+
+    accuracy                           0.29      1520
+   macro avg       0.20      0.15      0.12      1520
+weighted avg       0.27      0.29      0.23      1520
+
+
+BiLSTM22----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.16      0.07      0.10        81
+   Lean Left       0.28      0.47      0.35       107
+  Lean Right       0.21      0.10      0.13        63
+        Left       0.20      0.10      0.14        96
+       Right       0.27      0.42      0.33        98
+
+    accuracy                           0.25       445
+   macro avg       0.22      0.23      0.21       445
+weighted avg       0.23      0.25      0.22       445
+
+
+BiLSTM23----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.27      0.13      0.18       478
+   Lean Left       0.33      0.71      0.45       610
+  Lean Right       0.20      0.09      0.13       409
+        Left       0.00      0.00      0.00       241
+       Mixed       0.00      0.00      0.00         8
+   Not Rated       0.00      0.00      0.00         4
+       Right       0.20      0.20      0.20       215
+
+    accuracy                           0.29      1965
+   macro avg       0.14      0.16      0.14      1965
+weighted avg       0.23      0.29      0.23      1965
+
+
+BiLSTM3----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.30      0.41      0.35       385
+   Lean Left       0.35      0.58      0.44       460
+  Lean Right       0.37      0.13      0.19       361
+        Left       0.16      0.05      0.08       150
+       Mixed       0.00      0.00      0.00         5
+   Not Rated       0.00      0.00      0.00         6
+       Right       0.20      0.07      0.11       153
+
+    accuracy                           0.32      1520
+   macro avg       0.20      0.18      0.17      1520
+weighted avg       0.31      0.32      0.28      1520
+
+BiLSTM32----------------------------------------------------
+
+precision    recall  f1-score   support
+
+      Center       0.34      0.21      0.26       478
+   Lean Left       0.34      0.60      0.44       610
+  Lean Right       0.27      0.22      0.24       409
+        Left       0.22      0.12      0.16       241
+       Mixed       0.00      0.00      0.00         8
+   Not Rated       0.00      0.00      0.00         4
+       Right       0.28      0.16      0.21       215
+
+    accuracy                           0.32      1965
+   macro avg       0.21      0.19      0.19      1965
+weighted avg       0.30      0.32      0.29      1965

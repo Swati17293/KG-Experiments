@@ -1,0 +1,127 @@
+
+
+MultinomialNB()KG2--Title+CS-----------------------------------------       
+
+                  precision    recall  f1-score   support
+
+      Center       0.29      0.19      0.23        81
+   Lean Left       0.26      0.69      0.38       107
+  Lean Right       0.00      0.00      0.00        63
+        Left       0.75      0.03      0.06        96
+       Right       0.27      0.30      0.28        98
+
+    accuracy                           0.27       445
+   macro avg       0.31      0.24      0.19       445
+weighted avg       0.34      0.27      0.21       445
+
+LogisticRegression()KG2--Title+CS-----------------------------------------        
+
+                  precision    recall  f1-score   support
+
+      Center       0.24      0.23      0.24        81
+   Lean Left       0.27      0.50      0.35       107
+  Lean Right       0.17      0.02      0.03        63
+        Left       0.48      0.12      0.20        96
+       Right       0.26      0.37      0.31        98
+
+    accuracy                           0.27       445
+   macro avg       0.28      0.25      0.22       445
+weighted avg       0.29      0.27      0.24       445
+
+SVC()KG2--Title+CS-----------------------------------------        
+
+                  precision    recall  f1-score   support
+
+      Center       0.29      0.28      0.29        81
+   Lean Left       0.27      0.57      0.37       107
+  Lean Right       0.00      0.00      0.00        63
+        Left       0.62      0.10      0.18        96
+       Right       0.29      0.37      0.33        98
+
+    accuracy                           0.29       445
+   macro avg       0.30      0.27      0.23       445
+weighted avg       0.32      0.29      0.25       445
+
+MultinomialNB()KG2--CS-----------------------------------------      
+
+                  precision    recall  f1-score   support
+
+      Center       0.27      0.12      0.17        81
+   Lean Left       0.26      0.71      0.38       107
+  Lean Right       0.00      0.00      0.00        63
+        Left       0.00      0.00      0.00        96
+       Right       0.28      0.32      0.30        98
+
+    accuracy                           0.26       445
+   macro avg       0.16      0.23      0.17       445
+weighted avg       0.17      0.26      0.19       445
+
+LogisticRegression()KG2--CS-----------------------------------------       
+
+                  precision    recall  f1-score   support
+
+      Center       0.23      0.22      0.23        81
+   Lean Left       0.27      0.55      0.36       107
+  Lean Right       0.00      0.00      0.00        63
+        Left       0.00      0.00      0.00        96
+       Right       0.28      0.41      0.33        98
+
+    accuracy                           0.26       445
+   macro avg       0.16      0.24      0.18       445
+weighted avg       0.17      0.26      0.20       445
+
+SVC()KG2--CS-----------------------------------------        
+
+                  precision    recall  f1-score   support
+
+      Center       0.21      0.17      0.19        81
+   Lean Left       0.27      0.58      0.37       107
+  Lean Right       0.00      0.00      0.00        63
+        Left       0.14      0.01      0.02        96
+       Right       0.28      0.39      0.33        98
+
+    accuracy                           0.26       445
+   macro avg       0.18      0.23      0.18       445
+weighted avg       0.20      0.26      0.20       445
+
+MultinomialNB()KG2--Title-----------------------------------------      
+
+                  precision    recall  f1-score   support
+
+      Center       0.30      0.22      0.26        81
+   Lean Left       0.24      0.74      0.37       107
+  Lean Right       0.00      0.00      0.00        63
+        Left       0.00      0.00      0.00        96
+       Right       0.12      0.07      0.09        98
+
+    accuracy                           0.23       445
+   macro avg       0.13      0.21      0.14       445
+weighted avg       0.14      0.23      0.15       445
+
+LogisticRegression()KG2--Title-----------------------------------------       
+
+                  precision    recall  f1-score   support
+
+      Center       0.30      0.22      0.26        81
+   Lean Left       0.24      0.74      0.37       107
+  Lean Right       0.00      0.00      0.00        63
+        Left       0.00      0.00      0.00        96
+       Right       0.12      0.07      0.09        98
+
+    accuracy                           0.23       445
+   macro avg       0.13      0.21      0.14       445
+weighted avg       0.14      0.23      0.15       445
+
+SVC()KG2--Title-----------------------------------------        
+
+                  precision    recall  f1-score   support
+
+      Center       0.30      0.22      0.26        81
+   Lean Left       0.24      0.74      0.37       107
+  Lean Right       0.00      0.00      0.00        63
+        Left       0.42      0.26      0.32        96
+       Right       0.00      0.00      0.00        98
+
+    accuracy                           0.27       445
+   macro avg       0.19      0.24      0.19       445
+weighted avg       0.20      0.27      0.20       445
